@@ -1,0 +1,72 @@
+{
+    "name": "Percolate",
+    "description": "Percolate is the leading Content Marketing Platform for the enterprise. Percolate offers solutions to manage the production of campaigns and content.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1781-percolate.jpg",
+    "tags": [
+        "have api",
+        "social"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/percolate\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Percolate",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1781-percolate.jpg",
+            "humanURL": "http:\/\/percolate.com\/features\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/percolate-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/percolate-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.percolate.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.percolate.com\/feed\/rss\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/percolate"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/percolate"
+        },
+        {
+            "type": "Email",
+            "url": "media@percolate.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@percolate.com"
+        },
+        {
+            "type": "Email",
+            "url": "hello@percolate.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/percolate"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/percolate.com\/features\/"
+        }
+    ]
+}
