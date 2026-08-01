@@ -1,8 +1,24 @@
 aid: percolate
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/percolate.png
 name: Percolate
-description: Percolate is a company surfaced as a portfolio company of lightspeed-venture-partners, slow-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Percolate was a New York-based content marketing and marketing-orchestration platform,
+  backed by Lightspeed Venture Partners and Slow Ventures, that helped enterprise marketing teams plan,
+  create, and distribute campaign content. The company was acquired by Seismic in 2019 and the product
+  has been folded into the Seismic marketing-enablement platform. As of this enrichment pass percolate.com
+  serves only a "Percolate is now a part of the Seismic platform" landing page with a product login; all
+  former developer, documentation, and API endpoints (developer/docs/api subdomains) no longer resolve, so
+  there is no independent, active API surface to catalog for this provider.
 url: https://raw.githubusercontent.com/api-evangelist/percolate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-status: defunct
+x-status-note: Acquired by Seismic (2019); no independent active API surface as of 2026-07-20.
 tags:
 - Company
+- Marketing
+- Content Marketing
+- Marketing Technology
+- Marketing Enablement
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/percolate-domain-security.yml
 - type: Website
   url: https://percolate.com
+- type: Login
+  url: https://percolate.com/app/login
+- type: PrivacyPolicy
+  url: https://seismic.com/percolate-privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
