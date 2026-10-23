@@ -16,3 +16,55 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: percolate-adobe-creative-cloud-own
+  label: Adobe Creative Cloud (own)
+  partner: adobe-creative-cloud
+  partner_name: Adobe Creative Cloud (own)
+  category: Adobe Exchange Creative Cloud listing (After Effects, Illustrator, InCopy, InDesign)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/103488/percolate-proof
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: percolate-adobe-illustrator-own
+  label: Adobe Illustrator (own)
+  partner: adobe-illustrator
+  partner_name: Adobe Illustrator (own)
+  category: Adobe Exchange Creative Cloud listing (After Effects, Illustrator, InCopy, InDesign)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/103488/percolate-proof
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: percolate-adobe-photoshop-own
+  label: Adobe Photoshop (own)
+  partner: adobe-photoshop
+  partner_name: Adobe Photoshop (own)
+  category: Adobe Exchange Creative Cloud listing (After Effects, Illustrator, InCopy, InDesign)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/103488/percolate-proof
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: percolate-adobe-premiere-pro-own
+  label: Adobe Premiere Pro (own)
+  partner: adobe-premiere
+  partner_name: Adobe Premiere Pro (own)
+  category: Adobe Exchange Creative Cloud listing (After Effects, Illustrator, InCopy, InDesign)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/103488/percolate-proof
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
